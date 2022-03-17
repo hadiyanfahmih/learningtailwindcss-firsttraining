@@ -1,0 +1,8 @@
+1. Bikin file html dan css (contoh: index.html dan tailwind.css)
+2. npm init -y (package json) kalau perlu LAHHH
+3. npm install -D tailwindcss
+4. npx tailwindcss init
+5. lalu ubah tailwind.config.js (contoh:content: ['./index.html'])
+6. lalu masukan di file tailwind.css: @tailwind base, @tailwind components dan @tailwind ultilities
+7. npx tailwindcss -i ./tailwind.css -o ./style.css --watch
+8. Hubungkan file html ke style.css yang baru
